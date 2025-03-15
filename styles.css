@@ -1,0 +1,61 @@
+/* Remove this file after converting to Tailwind */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+.btn {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Cards section */
+.cards {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+}
